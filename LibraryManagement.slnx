@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LibraryManagement.Application/LibraryManagement.Application.csproj" />
+    <Project Path="src/LibraryManagement.Data/LibraryManagement.Data.csproj" />
+    <Project Path="src/LibraryManagement.Domain/LibraryManagement.Domain.csproj" />
+    <Project Path="src/LibraryManagement.WinForms/LibraryManagement.WinForms.csproj" />
+  </Folder>
+</Solution>

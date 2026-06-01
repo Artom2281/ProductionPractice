@@ -107,6 +107,7 @@ _ReSharper*/
 # Claude Code / AI-ассистенты
 .claude/
 !.claude/settings.json
+CLAUDE.md
 
 # Пользовательские ресурсы / runtime-артефакты приложения
 *.log

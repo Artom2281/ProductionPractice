@@ -153,26 +153,6 @@ dotnet run --project src/LibraryManagement.WinForms
 
 ---
 
-## Миграции БД
-
-Создание новой миграции после изменения моделей:
-
-```powershell
-dotnet ef migrations add <MigrationName> `
-  --project src/LibraryManagement.Data `
-  --startup-project src/LibraryManagement.WinForms
-```
-
-Применение миграций:
-
-```powershell
-dotnet ef database update `
-  --project src/LibraryManagement.Data `
-  --startup-project src/LibraryManagement.WinForms
-```
-
----
-
 ## Тестирование
 
 В репозитории пока не выделен отдельный test-проект. Рекомендуемая структура для будущего расширения:
